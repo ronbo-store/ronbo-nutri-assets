@@ -5,3 +5,4 @@
 - `E104.png` — Everkinetic, CC BY-SA 3.0, vía Wikimedia Commons («Dumbbell-bent-arm-pullover-1.png»).
 - `E105.jpg`, `E106.jpg` — free-exercise-db, Unlicense / dominio público (dataset público de ejercicios).
 - `E107.jpg` — Tpikonen, CC BY-SA 4.0, vía Wikimedia Commons («Captains chair.jpg», redimensionada a 800 px).
+- `E109.jpg` — Producción propia de Ronald Borges (imagen hecha por él, aportada por correo el 2026-10-26; original PNG 1254×1254, versión web redimensionada a 1000 px).
