@@ -11,3 +11,11 @@
 - `E045.webp`, `E068.png` — Rehospedadas el 2026-10-28 desde fitnessvolt.com (ilustraciones; eran los hotlinks de las fichas, sin CORS en origen), misma autorización.
 - `E096.webp` — Rehospedada el 2026-10-28 desde el catálogo liftag (S3; era el hotlink de la ficha, sin CORS en origen), misma autorización.
 - `E100.webp` — Rehospedada el 2026-10-28 desde uncomo.com (secuencia de 3 fotos; era el hotlink de la ficha, sin CORS en origen), misma autorización.
+
+## Estándar de imágenes de la Biblioteca (desde 2026-11-02)
+
+- Toda imagen nueva de ficha o variante entra por el flujo `flujo_imagen_biblioteca.py` (carpeta del mecanismo en el proyecto): cualquier formato y orientación → **WebP 1920×1280 (proporción 1.5)** → **menos de 200 KB** a la mayor calidad que quepa. Política de ajuste: recorte «cover» centrado en horizontal con ancla vertical al 40 % desde arriba; sin bandas ni rellenos.
+- Nombres en la raíz: foto principal `E###.webp`; variante `E###-<slug>.webp`.
+- Enlace directo estable: `https://ronbo-store.github.io/ronbo-nutri-assets/<nombre>`.
+- A este repo solo entra la versión final optimizada; el original pesado no se guarda aquí.
+- Lote 2026-11-02 — imágenes generadas por IA, aportadas por Ronald Borges por correo el 2026-11-02: `E051-pies-anchos/estrechos/estandar/altos/bajos.webp` (5 variantes de Prensa de piernas), `E003-torso-atras/erguido/adelante.webp` (3 variantes de Mariposa en máquina — pec deck; la de torso erguido incluye la flecha que marca la posición), `E004-press-de-pie/sentado.webp` y `E004-aperturas-de-pie/sentado.webp` (pecho en poleas).
